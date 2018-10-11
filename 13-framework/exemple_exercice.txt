@@ -1,0 +1,46 @@
+
+
+Exercice 1 : Créer l'action produit/categorie/{nom_de_categorie}
+	1/ ProduitController : 
+			public function categorie($cat){}
+			A : Récupérer les données : les produits de la cat sélectionnée
+			B : Récupérer les catégorie existantes
+			C : Rendre la vue boutique.html
+			
+Exercice 2 : Faire en sorte que les liens catégorie, fiche produit soit actifs (vues boutique.html et fiche_produit.html)
+
+Exercice 3 : Créer l'action membre/inscription
+	1/ Créer le Repository\MembreRepository
+	2/ Créer le Controller\MembreController
+	3/ Créer la fonction connexion() dans membre controller
+	4/ Créer la vue View/Membre/connexion.html
+	
+
+Exercice 4 : Afficher la inscription, et gérer l'inscription
+	1/ Créer le Repository\MembreRepository
+			- registerMembre() -- register();
+			- getMembreByPseudo()
+			
+	2/ Créer le Controller\MembreController
+	3/ Créer la fonction inscription()
+			- rendre la vue (inscription.html)
+	4/ Créer la vue View/Membre/inscription.html (formulaire)
+	5/ Compléter la fonction inscription()
+			- Vérifier que post soit rempli
+			- Vérifier les champs
+			- Vérifier si le pseudo est disponible
+			- enregistrer les infos
+			- rediriger vers connexion
+			
+
+
+
+
+
+Exercice 5 : Gérer la recherche de produit
+	
+	
+	
+	
+	
+
